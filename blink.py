@@ -1,3 +1,7 @@
+# import Raspberry Pi GPIO support into Python environment
+import RPi.GPIO as GPIO
+# import a sleep function from time module
+from time import sleep
 
 led1 = 6  # GPIO number where the led is connected
 led2 = 13
